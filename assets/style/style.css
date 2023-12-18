@@ -18,7 +18,9 @@
   --color-white: #fff;
   --color-white-secondary: #e0e1dd;
 }
-
+body{
+  scroll-behavior: smooth;
+}
 img {
   width: 100%;
 }

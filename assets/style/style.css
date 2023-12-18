@@ -18,7 +18,7 @@
   --color-white: #fff;
   --color-white-secondary: #e0e1dd;
 }
-body{
+html{
   scroll-behavior: smooth;
 }
 img {

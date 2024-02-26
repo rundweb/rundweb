@@ -1,9 +1,11 @@
 import HomePages from "../pages/HomePages";
 
 const ContentsComponents = () => {
-  return <>
-    <HomePages/>
-  </>;
+  return (
+    <>
+      <HomePages />
+    </>
+  );
 };
 
 export default ContentsComponents;

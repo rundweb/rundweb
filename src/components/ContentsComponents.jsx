@@ -1,5 +1,9 @@
+import HomePages from "../pages/HomePages";
+
 const ContentsComponents = () => {
-  return <div>this is content</div>;
+  return <>
+    <HomePages/>
+  </>;
 };
 
 export default ContentsComponents;

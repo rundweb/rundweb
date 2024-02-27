@@ -3,8 +3,8 @@ import "./css/home.css";
 const HomePages = () => {
   return (
     <div id="home" className="home">
-      <div className="home-content">
-        <div className="home-text">
+      <div className="home-content" data-aos="zoom-in" data-aos-duration="1000">
+        <div className="home-text" data-aos="fade-up" data-aos-duration="2000">
           <h1>
             we help you to grow your <span>Business</span>
           </h1>

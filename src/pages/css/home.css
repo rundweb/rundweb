@@ -211,33 +211,29 @@
 }
 
 @media screen and (max-width: 560px) {
-    .home{
-       padding-top: 130px;
-    }
+  .home-content {
+    padding: 15px;
+  }
 
-    .home-content{
-        padding: 15px;
-    }
+  .home-text {
+    text-align: left;
+    padding: 25px;
+  }
 
-    .home-text{
-        text-align: left;
-        padding: 25px;
-    }
-    
-    .home-text h1{
-        font-size: 40px;
-        line-height: 48px;
-        width: 100%;
-        letter-spacing: .08rem;
-    }
+  .home-text h1 {
+    font-size: 40px;
+    line-height: 48px;
+    width: 100%;
+    letter-spacing: 0.08rem;
+  }
 
-    .home-text p{
-        width: 100%;
-    }
+  .home-text p {
+    width: 100%;
+  }
 
-    .btn-home{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+  .btn-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

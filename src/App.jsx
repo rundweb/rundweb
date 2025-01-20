@@ -1,3 +1,4 @@
+import ContentComponents from "./components/ContentComponents";
 import HomeComponents from "./components/HomeComponents";
 import NavbarComponents from "./components/NavbarComponents";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className="bg-white">
       <NavbarComponents />
       <HomeComponents/>
+      <ContentComponents/>
     </div>
   );
 };

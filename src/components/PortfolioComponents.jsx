@@ -38,9 +38,9 @@ const PortfolioComponents = () => {
       stars: 5.0,
       price:"$20 - $34",
       image: portfolio3,
-      category: ["Bestsellers", "Recommendation", "New"],
+      category: ["Bestsellers", "Recommendation","New"],
       link : "https://rundweb.github.io/rundshop/"
-    },
+    }
   ];
 
   const [filterCategory, setFilterCategory] = useState("");
@@ -88,7 +88,7 @@ const PortfolioComponents = () => {
         </button>
       </div>
 
-      <div className="flex flex-wrap gap-5 justify-around mt-5">
+      <div className="flex flex-wrap gap-5 justify-around mt-5 lg:gap-10">
         {filteredItems.length > 0 ? (
           filteredItems.map((item) => (
             <div key={item.id} className="neomorphism rounded-xl overflow-hidden relative group cursor-pointer">
@@ -96,7 +96,7 @@ const PortfolioComponents = () => {
                   <a href={item.link} target="blank" className="hidden group-hover:flex items-center font-medium gap-2 bg-white py-3 px-7 rounded-xl text-primary"><FaArrowRight /> Live Priview</a>
               </div>
               <div className="">
-                <img src={item.image} alt="" className="h-56 w-full sm:w-[340px] object-cover object-top"/>
+                <img src={item.image} alt="" className="h-56 w-[340px] object-cover object-top"/>
               </div>
               <div className="p-6 flex flex-col gap-2 text-primary">
                 <h1 className="font-semibold tracking-wide">{item.name}</h1>
@@ -109,7 +109,7 @@ const PortfolioComponents = () => {
             </div>
           ))
         ) : (
-          <p>Tidak ada item yang cocok.</p>
+          <p className="font-semibold text-primary">Tidak ada item yang cocok.</p>
         )}
       </div>
     </div>

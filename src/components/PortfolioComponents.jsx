@@ -47,7 +47,7 @@ const PortfolioComponents = () => {
   const filteredItems = items.filter(isMatchingCategory);
 
   return (
-    <div className="flex flex-col p-5 max-w-7xl m-auto gap-5 min-h-screen justify-center">
+    <div className="flex flex-col p-5 max-w-7xl m-auto gap-5 mb-10 lg:mb-20 -mt-5">
       <h1 className="text-xl sm:text-2xl font-semibold text-primary">
         Explore Our Success Stories
       </h1>

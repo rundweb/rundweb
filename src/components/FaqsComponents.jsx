@@ -6,29 +6,29 @@ const FaqsComponents = () => {
 
   const faqs = [
     {
-      question: "Apa itu landing page, dan bagaimana cara kerjanya?",
+      question: "What is a landing page, and how does it work?",
       answer:
-        "Landing page adalah halaman web yang dirancang khusus untuk mendorong pengunjung mengambil tindakan tertentu, seperti mengisi formulir atau membeli produk. Dengan desain yang fokus dan strategi konversi, landing page membantu meningkatkan hasil kampanye pemasaran Anda.",
+        "A landing page is a web page designed specifically to encourage visitors to take a specific action, such as filling out a form or making a purchase. With focused design and conversion strategies, landing pages help improve the results of your marketing campaigns.",
     },
     {
-      question: "Berapa lama waktu yang dibutuhkan untuk membuat landing page?",
+      question: "How long does it take to create a landing page?",
       answer:
-        "Waktu pengerjaan bergantung pada kompleksitas desain dan fitur yang diminta. Umumnya, kami dapat menyelesaikan landing page dalam 5-10 hari kerja.",
+        "The timeline depends on the complexity of the design and features requested. Generally, we can complete a landing page in 3-5 business days.",
     },
     {
-      question: "Apakah landing page yang dibuat sudah mobile-friendly?",
+      question: "Are the landing pages you create mobile-friendly?",
       answer:
-        "Ya, semua landing page yang kami buat dioptimalkan untuk tampil sempurna di perangkat desktop, tablet, dan smartphone.",
+        "Yes, all of our landing pages are optimized to display perfectly on desktop, tablet, and smartphone devices.",
     },
     {
-      question: "Apakah saya bisa meminta revisi setelah landing page selesai?",
+      question: "Can I request revisions after the landing page is completed?",
       answer:
-        "Tentu! Kami menyediakan hingga 3 kali revisi untuk memastikan landing page sesuai dengan kebutuhan Anda.",
+        "Absolutely! We offer up to 3 revisions to ensure the landing page meets your needs.",
     },
     {
-      question: "Apakah ada garansi untuk hasil yang diberikan?",
+      question: "Do you offer any guarantees for the results?",
       answer:
-        "Kami tidak memberikan garansi spesifik untuk angka konversi, namun desain kami sudah dioptimalkan berdasarkan praktik terbaik dan pengalaman. Kami juga akan memberikan panduan untuk meningkatkan performa landing page Anda.",
+        "We don’t offer specific guarantees for conversion rates, but our designs are optimized based on best practices and experience. We also provide guidance to help improve the performance of your landing page.",
     },
   ];
 
@@ -37,7 +37,7 @@ const FaqsComponents = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto my-10 p-5">
+    <div className="max-w-2xl mx-auto p-5 mb-10">
       <div className="mb-6">
         <h1 className="text-lg font-bold text-center text-primary">FAQs</h1>
         <h1 className="text-center font-bold text-4xl text-primary">Frequently asked questions</h1>

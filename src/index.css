@@ -13,4 +13,13 @@
     background: #ffffff;
     box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
   }
+
+  .neogreen {
+    background: #3a4f39;
+    box-shadow: 20px 20px 60px #314330, -20px -20px 60px #435b42;
+  }
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important ;
 }

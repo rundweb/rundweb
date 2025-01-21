@@ -59,11 +59,11 @@ const ContentComponents = () => {
             disableOnInteraction: false,
           }}
           modules={[Autoplay]}
-          className="h-60"
+          className="h-52"
         >
           {colors.map((item, index) => (
-            <SwiperSlide key={index}>
-              <div className={`${item.color} flex flex-col gap-5 items-center p-5 shadow-xl rounded-3xl justify-center h-44 lg:h-28 md:max-w-64 lg:flex-row lg:gap-10`}>
+            <SwiperSlide key={index} className="flex">
+              <div className={`${item.color} flex flex-col gap-5 items-center p-5 shadow-xl rounded-3xl justify-center h-48 lg:h-28 md:max-w-64 lg:flex-row lg:gap-10`}>
                 <div className="text-center text-white lg:text-start">
                   <h1 className="font-semibold tracking-wide">{item.name}</h1>
                   <p>{item.count} Project</p>

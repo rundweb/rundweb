@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,9 +14,18 @@
     box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
   }
 
-  .neogreen {
+  .hoverneo {
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 5px 5px 15px #d9d9d9, -5px -5px 15px #ffffff;
+  }
+
+  .hovergreen {
     background: #3a4f39;
-    box-shadow: 20px 20px 60px #314330, -20px -20px 60px #435b42;
+    box-shadow: inset 5px 5px 15px #314330, inset -5px -5px 15px #435b42;
+  }
+
+  .font-code {
+    font-family: "Fira Code", serif;
   }
 }
 

@@ -38,17 +38,25 @@ const FaqsComponents = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-5 mb-10">
-      <div className="mb-6">
+      <div className="mb-6" data-aos="fade-up" data-aos-duration="1300">
         <h1 className="text-lg font-bold text-center text-primary">FAQs</h1>
-        <h1 className="text-center font-bold text-4xl text-primary">Frequently asked questions</h1>
+        <h1 className="text-center font-bold text-4xl text-primary">
+          Frequently asked questions
+        </h1>
       </div>
       {faqs.map((faq, index) => (
-        <div key={index} className="mb-6">
+        <div
+          key={index}
+          className="mb-6"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+        >
           <button
             onClick={() => toggleFAQ(index)}
-            className="flex w-full text-left px-3 py-2 text-primary font-medium rounded-lg tracking-wide shadow"
+            className="flex w-full text-left px-3 py-2 text-primary font-medium rounded-lg tracking-wide shadow hover:hoverneo"
           >
-            <RiQuestionAnswerFill  className="w-10 text-base mt-1 mr-1"/> {faq.question}
+            <RiQuestionAnswerFill className="w-10 text-base mt-1 mr-1" />{" "}
+            {faq.question}
           </button>
           {activeIndex === index && (
             <div className="mt-2 px-4 py-2 bg-white text-primary text-sm tracking-wide rounded-lg shadow">

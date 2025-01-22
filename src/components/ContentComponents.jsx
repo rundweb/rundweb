@@ -32,7 +32,7 @@ const ContentComponents = () => {
     { name: "Github", color: "bg-[#76E4F7]", image: github, count: 50 },
   ];
   return (
-    <div className="py-5">
+    <div className="py-5" data-aos="fade-up" data-aos-duration="1300">
       <Swiper
         slidesPerView={2}
         centeredSlides={true}

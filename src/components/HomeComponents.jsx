@@ -1,9 +1,9 @@
 const HomeComponents = () => {
   return (
-    <div className="flex flex-col gap-10 py-5 lg:py-12">
+    <div className="flex flex-col gap-10 py-5 lg:py-12 relative z-0">
       <div
         className="p-5 max-w-7xl m-auto flex flex-col gap-5 lg:gap-8 items-center justify-center text-center text-primary"
-        data-aos="zoom-in" data-aos-duration="1000"
+        data-aos="zoom-in" data-aos-duration="1000" 
       >
         <h1 className="text-2xl font-bold tracking-wide sm:text-4xl md:max-w-3xl lg:text-5xl">
           Boost Your Business with High-Converting Landing Pages

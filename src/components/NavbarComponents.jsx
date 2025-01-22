@@ -64,7 +64,7 @@ const NavbarComponents = () => {
   }, []);
 
   return (
-    <div className="h-full w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-70">
+    <div className="h-full w-full bg-white-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-70 relative z-50">
       <div className="p-7 max-w-7xl m-auto flex items-center justify-between">
         <div>
           <h1 className="text-xl font-bold tracking-wide text-primary md:text-2xl">
@@ -89,7 +89,7 @@ const NavbarComponents = () => {
                 e.stopPropagation(); // Mencegah klik pada ikon dianggap sebagai klik window
                 handleIconClick(icon.id);
               }}
-              className="relative cursor-pointer neomorphism text-lg lg:text-xl h-8 w-8 lg:h-10 lg:w-10 text-primary flex items-center justify-center bg-white-400 rounded-full bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-90 border border-gray-100"
+              className="relative cursor-pointer neomorphism text-xl h-8 w-8 lg:h-10 lg:w-10 text-primary flex items-center justify-center bg-white-400 rounded-full "
             >
               <icon.label />
               <div

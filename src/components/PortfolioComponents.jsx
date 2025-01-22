@@ -2,6 +2,8 @@ import { useState } from "react";
 import portfolio1 from "../assets/images/rundpay.jpg";
 import portfolio2 from "../assets/images/rundmost.jpg";
 import portfolio3 from "../assets/images/rundshop.jpg";
+import portfolio4 from "../assets/images/datalearn.jpg";
+import portfolio5 from "../assets/images/lates.jpg";
 import { HiClipboardList } from "react-icons/hi";
 import { AiFillLike } from "react-icons/ai";
 import { FaFire } from "react-icons/fa";
@@ -14,7 +16,7 @@ const PortfolioComponents = () => {
     {
       id: 1,
       name: "RundPay, By RundWeb",
-      sale: 23,
+      sale: 3,
       stars: 4.7,
       price: "$12 - $20",
       image: portfolio1,
@@ -24,7 +26,7 @@ const PortfolioComponents = () => {
     {
       id: 2,
       name: "RundMost, By RundWeb",
-      sale: 27,
+      sale: 2,
       stars: 4.8,
       price: "$12 - $20",
       image: portfolio2,
@@ -34,12 +36,32 @@ const PortfolioComponents = () => {
     {
       id: 3,
       name: "RundShop, By RundWeb",
-      sale: 17,
-      stars: 5.0,
+      sale: 11,
+      stars: 4.8,
       price: "$20 - $34",
       image: portfolio3,
       category: ["Bestsellers", "Recommendation", "New"],
       link: "https://rundweb.github.io/rundshop/",
+    },
+    {
+      id: 4,
+      name: "DataLearn, By RundWeb",
+      sale: 5,
+      stars: "5.0",
+      price: "$10 - $25",
+      image: portfolio4,
+      category: ["Recommendation","Bestsellers"],
+      link: "https://rfldhrstyd.github.io/GroupA25.github.io/index.html",
+    },
+    {
+      id: 5,
+      name: "Latest RW, By RundWeb",
+      sale: 1,
+      stars: "5.0",
+      price: "$20 - $34",
+      image: portfolio5,
+      category: [""],
+      link: "https://rundweb.github.io/myporto/",
     },
   ];
 

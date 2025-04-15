@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Rund</h1>
+<h1 align="center">Hi 👋, I'm Rund Web</h1>
 <p align="center">
   💻 Front-End Developer | 🎨 UI/UX Enthusiast | 🚀 Building digital products
 </p>
@@ -30,9 +30,8 @@
 
 ### 🚀 Featured Projects
 
-- [**BizNova**](#) – A modern business and corporate template built with React, Tailwind & GSAP.
-- [**ElevateX**](#) – Multi-page template for consultants & professionals.
-- [**Laravel + Vue CRUD**](#) – A basic starter kit with authentication and CRUD operations.
+- [**BizNova**](https://rundweb.github.io/demobiznova/) – A modern business and corporate template built with React, Tailwind & GSAP.
+- [**ElevateX**](https://rundweb.github.io/elevatex/) – Multi-page template for consultants & professionals.
 
 ---
 
@@ -47,5 +46,4 @@
 
 ### 📫 Let’s connect!
 
-- Portfolio: [rundweb.dev](#) (ganti dengan URL kamu)
-- LinkedIn: [linkedin.com/in/rundweb](#) (kalau ada)
+- Portfolio: [rundweb.dev](https://rundweb.github.io/rundwebnew/)
